@@ -5,6 +5,6 @@ app = application
 
 @app.route('/')
 def hellow():
-    return "Hellow World!"
+    return "Hellow World!, this better work"
 
 app.run()
